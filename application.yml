@@ -1,23 +1,4 @@
-server:
-  port: 4545
-  
-  
-spring:
-  application:
-    name: radio-taxi-service
-  datasource:
-    url: jdbc:mysql://localhost:3306/std
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    username: root
-    password: 1234
-   
-    
-  jpa:
-    hibernate:
-      ddl-auto: update
-      naming:
-        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
-    show-sql: true   
+ 
      
 eureka:
   client:
